@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(eduford_img/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+.main  img{
+    width: 170px;
+}
+.main .navbar img{
+    display: inline-block;
+}
+.navbar{
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .navlist{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.navbar .navlist .navlink{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+.navbar .navlist .navlink::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #f44336;
+    margin: auto;
+    display: block;
+    transition: .5s;
+}
+.navbar .navlist .navlink:hover::after{
+    width: 100%;
+}
+.navbar .navlist .navlink:hover{
+    color: #f44336;
+}
+.main .text{
+    align-items: center;
+    text-align: center;
+    padding-top: 140px;
+}
+.main .text h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+}
+.main .text p{
+    padding: 25px 0;
+    font-size: 15px;
+    color: white;
+}
+.main .text button{
+    padding: 12px 34px;
+    text-decoration: none;
+    font-size: 13px;
+    position: relative;
+    border-radius: none;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+
+}
+.main .text button:hover{
+    background-color: rgb(214, 55, 55);
+    border-color: rgb(214, 55, 55);
+    transition: 1s;
+}
+
+/* SECOND ? */
+.main2{
+    padding: 70px;
+    align-items: center;
+    text-align: center;
+}
+.main2 h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+}
+.main2 p{
+    font-size: 20px;
+}
+.main2 .carts{
+    flex-wrap:nowrap ;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.main2 .carts .cart{
+    padding: 12px 18px;
+    border: 1px solid #fce9f9;
+    background-color: #fce9f9;
+    margin: 20px;
+}
+.main2 .carts .cart:hover{
+    box-shadow: 1px 1px 5px rgb(90, 88, 88);
+}
+.main2 .carts .cart h2{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.main2 .carts .cart p{
+    padding: 10px;
+    font-size: 16px;
+}
+.main3{
+    padding: 70px;
+    align-items: center;
+    text-align: center;   
+}
+.main3 h1{
+    font-size: 40px;
+    font-weight: 600;   
+}
+.main3 p{
+    font-size: 20px;
+}
+.main3 .images{
+    align-items: center;
+    justify-content: space-between;
+}
+.main3 .images img{
+    padding: 10px;
+    width: 390px;
+}
+.main4{
+    padding: 70px;
+    align-items: center;
+    text-align: center;   
+}
+.main4 h1{
+    font-size: 40px;
+    font-weight: 600;  
+}
+.main4 p{
+    font-size: 20px;
+}
+.main4 .fac{
+    display: inline-block;
+}
+.fac{
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    display: flex;
+}
+.fac .cart1 {
+    padding: 17px;
+    align-items: center;
+    text-align: center;
+}
+.fac .cart1 img{
+    border: 1px solid transparent;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 330px;
+}
+.fac .cart1 h2{
+    font-size: 25px;
+
+}
+.fac .cart1 p{
+    font-size: 17px;
+}
+
+.main5{
+    padding: 70px;
+    align-items: center;
+    text-align: center;   
+}
+.main5 h1{
+    font-size: 40px;
+    font-weight: 600;  
+}
+.main5 p{
+    font-size: 20px;
+}
+.main5 .folder{
+    justify-content: space-between;
+}
+.folder{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-bottom:   10px;
+}
+.folder .cart2{
+    background-color:#fce9f9 ;
+    display: flex;
+    border: 1px solid #fce9f9;
+    padding-right:  40px;
+    padding-bottom:  60px;
+    padding-top:  25px;
+    padding-left:  50px;
+    position: relative;
+}
+.folder .cart2:hover{
+    box-shadow: 1px 1px 5px rgb(90, 88, 88);
+}
+.folder .cart2 img{
+    width: 90px;
+    border-radius: 100vh;
+    padding-right: 10px;
+}
+.folder .cart2 p{
+    font-size: 17px;
+    font-weight: 400;
+}
+.folder .a {
+    padding-top: 10px;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 130px;
+
+}
+.folder .a .bx{
+    padding-top:7px;
+    font-size: 18px;
+    color: rgb(219, 78, 78);
+}
+.main6{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(eduford_img/banner2.jpg);
+}
+.main6 h1{
+    color: white;
+    padding-top: 150px;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.main6 button{
+    padding: 12px 34px;
+    text-decoration: none;
+    font-size: 13px;
+    position: relative;
+    border-radius: none;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+
+}
+.main6 button:hover{
+    background-color: rgb(214, 55, 55);
+    border-color: rgb(214, 55, 55);
+    transition: 1s;
+}
+.main7{
+    padding: 70px;
+    align-items: center;
+    text-align: center;   
+}
+.main7 h1{
+    font-size: 40px;
+    font-weight: 600;  
+}
+.main7 p{
+    font-size: 20px;
+}
+.main7 .icon .bx{
+    padding-top: 20px;
+    font-size: 30px;
+    color: rgb(227, 46, 46);
+    cursor: pointer;
+    border-radius: 100%;
+}
+.main7 .copy{
+    padding-top: 20px;
+    background: #fce9f9;
+    font-size: 25px;
+    height: 25%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+/* about */
+
+.about{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(eduford_img/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.about .aboutText{
+    align-items: center;
+    padding-top: 75px;
+    text-align: center;
+}
+.about .aboutText h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.about1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 150px;
+    padding-bottom: 10px;
+}
+.about1 .aboutw h1{
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.about1 .aboutw p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.about1 .aboutw button{
+    margin-top: 15px;
+    padding: 12px 34px;
+    text-decoration: none;
+    font-size: 13px;
+    position: relative;
+    border-radius: none;
+    border-color: rgb(214, 55, 55);
+    background-color: transparent;
+    color: rgb(214, 55, 55);
+    cursor: pointer;
+}
+.about1 .aboutw button:hover{
+   background-color: rgb(214, 55, 55);
+   border-color: rgb(214, 55, 55);
+   color: white;
+   transition: 1s;
+}
+.about1 .aboutimg img{
+    width: 400px;
+}
+/* blog */
+.blog{
+    padding: 40px;
+    display: flex;
+    text-align: center;
+}
+.blog img{
+    width: 700px;
+    height: 500px;
+
+}
+.blog .post{
+    width: 400px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+.blog .post h6{
+    font-size: 25px;
+    background-color: #f44336;
+}
+.blog .post p{
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+}
+.blog .post .p{
+    float: right;
+    padding: 0;
+}
+
+/* contact */
+.contact{
+    display: flex;
+    padding: 100px;
+
+}
+
+form input{
+    padding: 10px;
+    margin: 10px;
+    font-size: 40px;
+}
+form textarea{
+    font-size: 40px;
+    padding: 10px;
+}
+form input:hover{
+    color: #f44336;
+}
+form textarea:hover{
+    color: #f44336;
+}
+.phone h3{
+    font-size: 40px;
+    padding: 15px;
+}
